@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Codepen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/index.js">
+    <link rel="stylesheet" href="scss/style.scss">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1174209-6"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-1174209-6');
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fontawesome links  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <title>We Are Venom</title>
+
+    <!-- Generate Favicon with https://realfavicongenerator.net  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Twitter Cards - Ref: https://davidwalsh.name/twitter-cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://mrmccormack.github.io/1000-vader/">
+    <meta name="twitter:title" content="Darth Vader Lives Here: $1000 website requirment example">
+    <meta name="twitter:description" content="Example for IM215 of using Twitter Cards, for a Darth Vader Site">
+    <meta name="twitter:image" content="https://1000-darth-vader.netlify.com/images/darthvader.jpg">
+
+    <style>
+
+        .jumbotron {
+      padding-bottom: 2rem;
+      margin-bottom: 0;
+      background-color: #000000;
+    border-radius: 0;
+    }
+
+    @media (min-width: 768px) {
+      .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      }
+    }
+
+    .jumbotron p:last-child {
+      margin-bottom: 0;
+    }
+
+    .jumbotron-heading {
+      font-weight: 300;
+        color:#fff;
+    }
+
+    .jumbotron .container {
+      max-width: 40rem;
+        
+    }
+    footer {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    footer p {
+      
+        margin-bottom: .25rem;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+      
+      .imgcover{
+          width: 100%;
+          top: 0;
+      }
+        
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+    
+</style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">Add some information about the album below, the author, or any other background
+                            context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off
+                            to some social networking sites or contact information.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://twitter.com/venommovie?lang=en" class="text-white">Follow on Twitter</a></li>
+                            <li><a href="https://www.facebook.com/Venomverse/" class="text-white">Like on Facebook</a></li>
+                            <li><a href="#" class="text-white">Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- codepen -->
+        <div id="cover"></div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+
+
+        <script src="js/index.js"></script>
+
+        <!-- codepen -->
+
+
+
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <img src="images/venom-512x512.png" width="48" alt="venom">
+                    <strong> &nbsp; Venom </strong>
+
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="jumbotron text-center" id="monster">
+            <div class="container">
+                <img src="images/venom-512x512.png" alt="Venom">
+
+                <div class="shaky">
+
+                    <h1 class="jumbotron-heading">We Are Venom</h1>
+
+                </div>
+
+                <p class="lead text-muted">Throw us to the wolves and we'll come back leading the pack.</p>
+                <i class="fas fa-palette fa-4x"></i>
+                <p>
+                    <!-- <a href="#" class="btn btn-primary my-2">Main call to action </a>
+                    <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+                </p>
+            </div>
+
+        </section>
+        <section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+        </section>
+
+        <section class="bg-dark" id=graypage>
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="images/venom2.jpg">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="https://via.placeholder.com/400x234/333/f00/?text=Darth+Vader+Lives+Here" alt="placeholder image">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="https://via.placeholder.com/400x234/333/f00/?text=Darth+Vader+Lives+Here" alt="placeholder image">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+            <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="/docs/4.3/getting-started/introduction/">getting started guide</a>.</p>
+            <!-- w3 valid link -->
+            <p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrmccormack.github.io%2F1000-vader%2F" target="_blank"><small>HTML valid</small><sup>5</sup></a></p>
+            <p> <a href="https://statuspage.freshping.io/5040-mrmccormackdarthvaderpage1000" target="_blank">
+                    <small>FreshPing: Status page</small></a></p>
+            <p><a href="https://www.webpagetest.org/result/190216_DS_279c1e6136583f438ff1c1cf2f7e7c80/">Image Website Speed
+                    Test
+                    Performance</a> from <a href="https://www.webpagetest.org/">https://www.webpagetest.org/</a></p>
+            <hr>
+            <p><strong> Licensing information </strong>
+                <small>
+                    <br>
+                    Darth Vader Lives Here based on template: <a href="https://getbootstrap.com/docs/4.3/examples/album/">https://getbootstrap.com/docs/4.3/examples/album/</a>
+                    <br>
+                    Bootstrap and all changes by Mr. McCormack licensed under <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE">https://github.com/twbs/bootstrap/blob/master/LICENSE</a>
+                </small>
+            </p>
+            <hr>
+            <p class="text-center"> Hosted with <span style="color: #ff0000;">&hearts;</span> on Github
+                <br>
+                <i class="fab fa-2x fa-github"></i>
+                <br>
+                <small><a href="https://github.com/mrmccormack/1000-vader">https://github.com/mrmccormack/1000-vader</a></small>
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
